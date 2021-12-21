@@ -1,38 +1,131 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+#root{
+  margin: 0
+}
+.container{
+  margin: 0;
+  max-width: 100%;
+}
 .App {
   text-align: center;
+  margin: 0;
+  padding: 0
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+input[type='radio']{
+  display: none;
+}
+.star{
+  cursor: pointer;
+  transition: color 200ms;
+  margin-bottom: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.accordion-question{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  width: 60%;
+  margin: auto;
+} 
+
+.accordion-question span {
+   margin-top: 30px;
+} 
+.wrapper{
+  background-color: #fff;
+  height: 800px;
+}
+.card-body a{
+  text-decoration: none;
+  color: #000;
+}
+.card-body a:hover{
+  color: #DB0006;
 }
 
-.App-link {
-  color: #61dafb;
+.input {
+  margin: 37px 0 5px 0;
+}
+.category-select {
+  margin: 20px 0;  
+}
+ul {
+  list-style: none;
+  padding-top: 14px;
+  display: flex;
+
+}
+.event-bubbling {
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+}
+.cart {
+  justify-content: flex-start;
+}
+#card-img{
+  display: block;
+  
+}
+.card:hover{
+  transform: scale(1.02);
+  z-index: 2;
+}
+.movie-details{
+  width: 60%;
+  margin: 50px auto;
+}
+.child{
+  width: 16rem;
+  margin:10px;
+}
+.card {
+  min-height: 680px;
+  transition: 1s;
+}
+.menu-nav a{
+  color: #000;
+}
+.menu-nav a.nav-link:hover{
+  color: #DB0006;
+}
+.child{
+  margin-bottom: 15px;
+  width: 18rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#submit {
+  font-size: 20px;
+  background-color: #01bf71;
 }
+div.App.container {
+  margin: 0;
+}
+.RatingButtonWrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-select{
+  width: 90%;
+  margin: auto
+}
+
+.sorting{
+  margin: auto;
+  width: 90%;
+
+  flex-wrap: wrap;
+}
+.sorting li button{
+  width: 150px;
+}
+

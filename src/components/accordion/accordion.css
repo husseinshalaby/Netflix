@@ -1,0 +1,26 @@
+.accordion-container {
+  background: #F9F9F9;
+  height: 800px;
+  padding-top: 100px;
+  padding-bottom: 10px;
+}
+.accordion-element {
+  width: 70%;
+  margin: auto;
+  margin-top: 10px;
+  border: 1px solid #000;
+}
+
+.accordion-question{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 10px auto;
+} 
+.accordion-answer {
+  width: 80%;
+  margin: 10px auto;
+}
+.accordion-icon{
+  margin-bottom: 5px;
+}
