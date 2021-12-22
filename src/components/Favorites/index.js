@@ -33,14 +33,6 @@ const Favorites = ({RemoveFromList,list}) => {
         <div>
           <ul className ='event-bubbling cart'> 
             <div className="container">
-              <div className="title_wrapper">
-                <div className="reactLogo">
-                  <img src="images/react.png" />
-                </div>
-                <div className="title_">
-                  <span>Favorites</span>
-                </div>
-              </div>
               <Swiper
                 navigation={true}
                 effect={"coverflow"}

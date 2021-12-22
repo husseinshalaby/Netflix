@@ -10,12 +10,9 @@ const FavoritesItem = ({RemoveFromList,name,image, id, rating}) => {
   return (
     <div>
       <Card className = 'card'>
-        <Link className = "itemName" to={`/products/${id}`}><div id='card-img'><Card.Img variant="top" src={image} /></div></Link>
+        <Link className = "itemName" to={`/movies/${id}`}><div id='card-img'><Card.Img variant="top" src={image} /></div></Link>
         <Card.Body>
-          <Link className = "itemName" to={`/products/${id}`}><Card.Title>{name}</Card.Title></Link>
-          {/* <Card.Text>
-            {price} 
-          </Card.Text> */}
+          <Link className = "itemName" to={`/movies/${id}`}><Card.Title>{name}</Card.Title></Link>
           <br/>
           <div className = 'RatingButtonWrapper'>
             <StarRating stars = {rating} />

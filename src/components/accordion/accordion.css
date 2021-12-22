@@ -1,8 +1,14 @@
 .accordion-container {
   background: #F9F9F9;
   height: 800px;
-  padding-top: 100px;
+  padding-top: 10px;
   padding-bottom: 10px;
+}
+@media screen and (max-width: 768px){
+  .accordion-container {
+    padding-top: 10px;
+    height: 1050px;
+  }
 }
 .accordion-element {
   width: 70%;
