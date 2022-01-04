@@ -9,12 +9,12 @@ export const SignInData = {
     button: 'Continue',
   },
   ar: {
-    header: 'أشاهد؟',
-    email: 'أشاهد؟',
-    password: 'أشاهد؟',
-    forgotPassword: 'أشاهد؟',
-    register: 'أشاهد؟',
-    button: 'أشاهد؟',
+    header: 'تسجيل الدخول لحسابك',
+    email: 'ايميل',
+    password: 'كلمة المرور',
+    forgotPassword: 'نسيت كلمة المرور',
+    register: 'انشاء حساب',
+    button: 'استمر',
   }
 }
 
@@ -30,13 +30,13 @@ export const RegisterData = {
     button: 'Continue',
   },
   ar: {
-    header: 'أشاهد؟',
-    name: 'أشاهد؟',
-    email: 'أشاهد؟',
-    phone: 'أشاهد؟',
-    password: 'أشاهد؟',
-    forgotPassword: 'أشاهد؟',
-    signin: 'أشاهد؟',
-    button: 'أشاهد؟',
+    header: 'انشاء حساب',
+    name: 'الاسم',
+    email: 'الايميل',
+    phone: 'رقم الهاتف',
+    password: 'كلمة المرور',
+    forgotPassword: 'نسيت كلمة المرور',
+    signin: 'تسجيل دخول',
+    button: 'استمر',
   }
 }
